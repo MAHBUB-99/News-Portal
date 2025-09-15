@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import LanguageSwitcher from "./LanguageSwitcher";
 
-export default function Navbar({dictionary,lang}) {
+export default function Navbar({ dictionary, lang }) {
   return (
     <header className="bg-white border-b border-gray-200 px-4 py-3">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -15,7 +15,9 @@ export default function Navbar({dictionary,lang}) {
               width={200}
               height={200}
             />
-            <h1 className="text-xl font-bold tracking-wider">The News Island</h1>
+            <h1 className="text-xl font-bold tracking-wider">
+              The News Island
+            </h1>
           </Link>
         </div>
 
